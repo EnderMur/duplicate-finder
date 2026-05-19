@@ -1,6 +1,6 @@
 [package]
 name = "duplicate_finder"
-version = "1.0.0"
+version = "1.1.0"
 edition = "2021"
 description = "Быстрая интерактивная CLI-утилита для поиска и удаления дубликатов файлов."
 authors = ["EnderMur"]
