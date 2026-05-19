@@ -1,0 +1,16 @@
+[package]
+name = "duplicate_finder"
+version = "1.0.0"
+edition = "2021"
+description = "Быстрая интерактивная CLI-утилита для поиска и удаления дубликатов файлов."
+authors = ["EnderMur"]
+license = "MIT"
+repository = "https://github.com/EnderMur/duplicate-finder"
+keywords = ["cli", "duplicate-finder", "tools"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+walkdir = "2.4"
+sha2 = "0.10"
+colored = "2.1"
